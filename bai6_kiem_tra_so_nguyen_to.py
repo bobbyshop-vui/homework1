@@ -4,7 +4,7 @@ if so < 2:
     print(f"Số {so} không phải là số nguyên tố.")
 else:
     la_nguyen_to = True
-    for i in range(2, int(so ** 0.5) + 1):
+    for i in range(2, so):
         if so % i == 0:
             la_nguyen_to = False
             break
