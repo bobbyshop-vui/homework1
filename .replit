@@ -14,3 +14,6 @@ requiredFiles = [".replit", "replit.nix"]
 
 [agent]
 expertMode = true
+
+[deployment]
+deploymentTarget = "cloudrun"
