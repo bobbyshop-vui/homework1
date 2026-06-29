@@ -5,6 +5,7 @@ hidden = [".pythonlibs"]
 
 [nix]
 channel = "stable-23_11"
+packages = ["intel-gpu-tools", "rocmPackages.rocm-smi"]
 
 [unitTest]
 language = "python3"
